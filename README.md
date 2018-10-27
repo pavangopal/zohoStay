@@ -1,7 +1,7 @@
 # zohoStay
 
 System requirements:
-mac
+mac,
 xcode 10
 
 programming language used: swift 4
