@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		1D0F157A21844AAF0009A06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F157921844AAF0009A06A /* AppDelegate.swift */; };
-		1D0F157C21844AAF0009A06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F157B21844AAF0009A06A /* ViewController.swift */; };
 		1D0F157F21844AAF0009A06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0F157D21844AAF0009A06A /* Main.storyboard */; };
 		1D0F158221844AAF0009A06A /* ZohoStay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F158021844AAF0009A06A /* ZohoStay.xcdatamodeld */; };
 		1D0F158421844AB00009A06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0F158321844AB00009A06A /* Assets.xcassets */; };
 		1D0F158721844AB00009A06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0F158521844AB00009A06A /* LaunchScreen.storyboard */; };
+		1D0F158F21844AC50009A06A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F158E21844AC50009A06A /* LoginController.swift */; };
+		1D0F159121844C260009A06A /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F159021844C260009A06A /* Dynamic.swift */; };
+		1D0F159321844CA20009A06A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F159221844CA20009A06A /* LoginViewModel.swift */; };
+		1D0F15952184512A0009A06A /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F15942184512A0009A06A /* RegistrationController.swift */; };
+		1D0F1597218459980009A06A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F1596218459980009A06A /* User.swift */; };
+		1D0F159921845E8C0009A06A /* ForgotPasswordConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F159821845E8C0009A06A /* ForgotPasswordConroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D0F157621844AAF0009A06A /* ZohoStay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZohoStay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0F157921844AAF0009A06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D0F157B21844AAF0009A06A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D0F157E21844AAF0009A06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D0F158121844AAF0009A06A /* ZohoStay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZohoStay.xcdatamodel; sourceTree = "<group>"; };
 		1D0F158321844AB00009A06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D0F158621844AB00009A06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0F158821844AB10009A06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0F158E21844AC50009A06A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		1D0F159021844C260009A06A /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		1D0F159221844CA20009A06A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1D0F15942184512A0009A06A /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		1D0F1596218459980009A06A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1D0F159821845E8C0009A06A /* ForgotPasswordConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordConroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				1D0F157921844AAF0009A06A /* AppDelegate.swift */,
-				1D0F157B21844AAF0009A06A /* ViewController.swift */,
 				1D0F157D21844AAF0009A06A /* Main.storyboard */,
 				1D0F158321844AB00009A06A /* Assets.xcassets */,
 				1D0F158521844AB00009A06A /* LaunchScreen.storyboard */,
 				1D0F158821844AB10009A06A /* Info.plist */,
 				1D0F158021844AAF0009A06A /* ZohoStay.xcdatamodeld */,
+				1D0F158E21844AC50009A06A /* LoginController.swift */,
+				1D0F159021844C260009A06A /* Dynamic.swift */,
+				1D0F159221844CA20009A06A /* LoginViewModel.swift */,
+				1D0F15942184512A0009A06A /* RegistrationController.swift */,
+				1D0F1596218459980009A06A /* User.swift */,
+				1D0F159821845E8C0009A06A /* ForgotPasswordConroller.swift */,
 			);
 			path = ZohoStay;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D0F157C21844AAF0009A06A /* ViewController.swift in Sources */,
+				1D0F158F21844AC50009A06A /* LoginController.swift in Sources */,
+				1D0F159121844C260009A06A /* Dynamic.swift in Sources */,
 				1D0F158221844AAF0009A06A /* ZohoStay.xcdatamodeld in Sources */,
+				1D0F159321844CA20009A06A /* LoginViewModel.swift in Sources */,
+				1D0F159921845E8C0009A06A /* ForgotPasswordConroller.swift in Sources */,
+				1D0F15952184512A0009A06A /* RegistrationController.swift in Sources */,
 				1D0F157A21844AAF0009A06A /* AppDelegate.swift in Sources */,
+				1D0F1597218459980009A06A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
